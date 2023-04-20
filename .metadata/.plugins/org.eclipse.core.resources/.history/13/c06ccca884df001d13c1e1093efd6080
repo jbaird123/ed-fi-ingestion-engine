@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_6x_0oJxoEeWay6G4VPoRgQ" id="_6x9_cJxoEeWay6G4VPoRgQ" label="Load_DSS_302_To_Staging_helper" creationDate="2015-12-06T17:30:13.993-0500" modificationDate="2015-12-06T17:50:03.787-0500" version="0.1" statusCode="" item="_6x_0opxoEeWay6G4VPoRgQ" displayName="Load_DSS_302_To_Staging_helper">
+    <author href="../../talend.project#_jEU84vZNEeSj18T95bdWUg"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_6x_0oZxoEeWay6G4VPoRgQ" path=""/>
+  <TalendProperties:RoutineItem xmi:id="_6x_0opxoEeWay6G4VPoRgQ" property="_6x_0oJxoEeWay6G4VPoRgQ" state="_6x_0oZxoEeWay6G4VPoRgQ">
+    <content href="Load_DSS_302_To_Staging_helper_0.1.item#/"/>
+  </TalendProperties:RoutineItem>
+</xmi:XMI>

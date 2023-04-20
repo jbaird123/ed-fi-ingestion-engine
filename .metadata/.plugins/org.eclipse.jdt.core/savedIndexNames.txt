@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/joe/talend/code/ed-fi-ingestion-engine/.metadata/.plugins/org.eclipse.jdt.core
+2087711938.index
+1145663011.index
+937563345.index
+3765027082.index

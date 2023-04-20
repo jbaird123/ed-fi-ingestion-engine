@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_lGitkgX2EeWs0YBIQGP26g" dataPackage="_lGitkwX2EeWs0YBIQGP26g"/>
+  <TalendMetadata:GenericPackage xmi:id="_lGitkwX2EeWs0YBIQGP26g" dataManager="_lGitkgX2EeWs0YBIQGP26g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lGitlAX2EeWs0YBIQGP26g" id="_lGitkAX2EeWs0YBIQGP26g" label="p2_eitsm">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pieZsEw8EeWO2NdGGd3amQ" name="BRNCH" label="BRNCH" length="45" sourceType="" talendType="id_String" nullable="false" originalLength="45">
+        <initialValue xmi:id="_pieZsUw8EeWO2NdGGd3amQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pieZskw8EeWO2NdGGd3amQ" name="DVSN" label="DVSN" length="45" sourceType="" talendType="id_String" nullable="false" originalLength="45">
+        <initialValue xmi:id="_pieZs0w8EeWO2NdGGd3amQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitlwX2EeWs0YBIQGP26g" name="RPRTG_DPRMT" label="RPRTG_DPRMT" length="25" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitmAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitmwX2EeWs0YBIQGP26g" name="SRVC" label="SRVC" length="45" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="45">
+        <initialValue xmi:id="_lGitnAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitnQX2EeWs0YBIQGP26g" name="RSPBY_CODE" label="RSPBY_CODE" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitngX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitnwX2EeWs0YBIQGP26g" name="CAUSE_CODE" label="CAUSE_CODE" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitoAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitoQX2EeWs0YBIQGP26g" name="CRTCL_APLCN" label="CRTCL_APLCN" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitogX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitowX2EeWs0YBIQGP26g" name="INCDT_NMBR" label="INCDT_NMBR" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitpAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitpQX2EeWs0YBIQGP26g" name="ACTL_START_TIME" label="ACTL_START_TIME" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;EEE MMM dd HH:mm:ss z yyyy&quot;">
+        <initialValue xmi:id="_lGitpgX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitpwX2EeWs0YBIQGP26g" name="RPRTD_START_TIME" label="RPRTD_START_TIME" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;EEE MMM dd HH:mm:ss z yyyy&quot;">
+        <initialValue xmi:id="_lGitqAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitqQX2EeWs0YBIQGP26g" name="RSLTN_TIME" label="RSLTN_TIME" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;EEE MMM dd HH:mm:ss z yyyy&quot;">
+        <initialValue xmi:id="_lGitqgX2EeWs0YBIQGP26g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitqwX2EeWs0YBIQGP26g" name="IMPCT_CTGRY" label="IMPCT_CTGRY" length="15" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitrAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OSXDAEnBEeWWxaaP1l-ggw" name="IMPCD_CBAS_DSGTD_SITE" label="IMPCD_CBAS_DSGTD_SITE" length="65535" talendType="id_String" originalLength="65535"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitrQX2EeWs0YBIQGP26g" name="INCDT_IMPCT" label="INCDT_IMPCT" length="65535" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGitrgX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitrwX2EeWs0YBIQGP26g" name="CAUSE" label="CAUSE" length="65535" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGitsAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitsQX2EeWs0YBIQGP26g" name="RSLTN" label="RSLTN" length="65535" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGitsgX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitswX2EeWs0YBIQGP26g" name="FLLW_UP_CMMNT" label="FLLW_UP_CMMNT" length="65535" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGittAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGittQX2EeWs0YBIQGP26g" name="PRTY" label="PRTY" length="25" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGittgX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGittwX2EeWs0YBIQGP26g" name="BSNS_OUTG_DRTN" label="BSNS_OUTG_DRTN" length="8" sourceType="DATETIME" talendType="id_Date" pattern="&quot;EEE MMM dd HH:mm:ss z yyyy&quot;">
+        <initialValue xmi:id="_lGituAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGituQX2EeWs0YBIQGP26g" name="ADD_TO_IMPCT_RPRT" label="ADD_TO_IMPCT_RPRT" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_lGitugX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGituwX2EeWs0YBIQGP26g" name="TTR1" label="TTR1" length="8" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;EEE MMM dd HH:mm:ss z yyyy&quot;">
+        <initialValue xmi:id="_lGitvAX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lGitvQX2EeWs0YBIQGP26g" name="TTR2" label="TTR2" length="10" precision="2" sourceType="FLOAT" talendType="id_Float" nullable="false">
+        <initialValue xmi:id="_lGitvgX2EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eyjUAAbHEeWAwvQzrq0h7Q" name="P1_GID" label="P1_GID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eyjUAQbHEeWAwvQzrq0h7Q"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

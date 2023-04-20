@@ -1,0 +1,784 @@
+!SESSION 2023-04-20 10:02:34.245 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_361
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data file:/home/joe/talend/code/ed-fi-ingestion-engine/ -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.compare.win32 4 0 2023-04-20 10:02:35.140
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compare.win32 [3]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=win32)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-04-20 10:02:35.141
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-04-20 10:02:35.146
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:02:37.508
+!MESSAGE 2023-04-20 10:02:37,505 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-04-20 10:02:55.498
+!MESSAGE 2023-04-20 10:02:55,498 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:01.435
+!MESSAGE 2023-04-20 10:03:01,435 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:01.437
+!MESSAGE 2023-04-20 10:03:01,437 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:01.439
+!MESSAGE 2023-04-20 10:03:01,439 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:01.439
+!MESSAGE 2023-04-20 10:03:01,439 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:02.137
+!MESSAGE 2023-04-20 10:03:02,137 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:02.137
+!MESSAGE 2023-04-20 10:03:02,137 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_BEANS/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:02.139
+!MESSAGE 2023-04-20 10:03:02,138 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:02.139
+!MESSAGE 2023-04-20 10:03:02,139 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:02.300
+!MESSAGE 2023-04-20 10:03:02,300 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE/poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:02.301
+!MESSAGE 2023-04-20 10:03:02,301 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:06.711
+!MESSAGE 2023-04-20 10:03:06,711 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:07.485
+!MESSAGE 2023-04-20 10:03:07,485 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE/poms/code/routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:07.485
+!MESSAGE 2023-04-20 10:03:07,485 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:10.762
+!MESSAGE 2023-04-20 10:03:10,762 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:10.811
+!MESSAGE 2023-04-20 10:03:10,811 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE/poms/code/beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:10.811
+!MESSAGE 2023-04-20 10:03:10,811 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:13.620
+!MESSAGE 2023-04-20 10:03:13,620 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on ed-fi-ingestion-engine
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:03:14.836
+!MESSAGE 2023-04-20 10:03:14,835 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:03:24.558
+!MESSAGE 2023-04-20 10:03:24,557 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:03:24.702
+!MESSAGE 2023-04-20 10:03:24,702 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:03:24.798
+!MESSAGE 2023-04-20 10:03:24,798 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:03:24.943
+!MESSAGE 2023-04-20 10:03:24,943 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:03:25.423
+!MESSAGE 2023-04-20 10:03:25,423 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-04-20 10:06:10.235
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-04-20 10:06:11.100 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_361
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -talendReload false
+Command-line arguments:  -talendReload false -data file:/home/joe/talend/code/ed-fi-ingestion-engine/ -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.compare.win32 4 0 2023-04-20 10:06:11.993
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compare.win32 [3]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=win32)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-04-20 10:06:11.994
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-04-20 10:06:12.000
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:06:14.218
+!MESSAGE 2023-04-20 10:06:14,215 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-04-20 10:06:14.743
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:06:18.047
+!MESSAGE 2023-04-20 10:06:18,046 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-04-20 10:07:30.036
+!MESSAGE 2023-04-20 10:07:30,035 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:45.303
+!MESSAGE 2023-04-20 10:07:45,303 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE2_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:45.305
+!MESSAGE 2023-04-20 10:07:45,305 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE2_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:45.307
+!MESSAGE 2023-04-20 10:07:45,307 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE2_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:45.307
+!MESSAGE 2023-04-20 10:07:45,307 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE2_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:46.062
+!MESSAGE 2023-04-20 10:07:46,062 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE2_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:46.062
+!MESSAGE 2023-04-20 10:07:46,062 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE2_BEANS/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:46.063
+!MESSAGE 2023-04-20 10:07:46,063 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE2_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:46.064
+!MESSAGE 2023-04-20 10:07:46,064 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE2_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:46.195
+!MESSAGE 2023-04-20 10:07:46,195 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE2/poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:46.197
+!MESSAGE 2023-04-20 10:07:46,196 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:50.514
+!MESSAGE 2023-04-20 10:07:50,513 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE2_ROUTINES: org.example.ed_fi_ingestion_engine2.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE2_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:51.358
+!MESSAGE 2023-04-20 10:07:51,358 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE2/poms/code/routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:51.359
+!MESSAGE 2023-04-20 10:07:51,358 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:54.473
+!MESSAGE 2023-04-20 10:07:54,473 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE2_ROUTINES: org.example.ed_fi_ingestion_engine2.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE2_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:54.516
+!MESSAGE 2023-04-20 10:07:54,515 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE2/poms/code/beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:54.516
+!MESSAGE 2023-04-20 10:07:54,516 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:57.325
+!MESSAGE 2023-04-20 10:07:57,325 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on ed-fi-ingestion-engine2
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:07:58.540
+!MESSAGE 2023-04-20 10:07:58,540 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:08:06.533
+!MESSAGE 2023-04-20 10:08:06,532 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:08:06.618
+!MESSAGE 2023-04-20 10:08:06,618 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:08:06.734
+!MESSAGE 2023-04-20 10:08:06,734 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:08:07.728
+!MESSAGE 2023-04-20 10:08:07,727 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:11:03.817
+!MESSAGE 2023-04-20 10:11:03,816 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE2_ROUTINES: org.example.ed_fi_ingestion_engine2.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE2_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:11:03.888
+!MESSAGE 2023-04-20 10:11:03,887 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE2_LOAD_DSS_100_TO_STAGING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:11:03.889
+!MESSAGE 2023-04-20 10:11:03,888 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE2_LOAD_DSS_100_TO_STAGING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:11:03.894
+!MESSAGE 2023-04-20 10:11:03,893 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE2_LOAD_DSS_100_TO_STAGING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:11:03.894
+!MESSAGE 2023-04-20 10:11:03,894 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE2_LOAD_DSS_100_TO_STAGING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:11:49.333
+!MESSAGE 2023-04-20 10:11:49,326 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - Physical deletion [[repository.process] Load_DSS_100_old_version_backup20150825] by user@talend.com.
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-04-20 10:12:44.788
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-04-20 10:12:45.650 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_361
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -talendReload false
+Command-line arguments:  -talendReload false -data file:/home/joe/talend/code/ed-fi-ingestion-engine/ -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.compare.win32 4 0 2023-04-20 10:12:46.577
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compare.win32 [3]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=win32)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-04-20 10:12:46.579
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-04-20 10:12:46.581
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:12:48.832
+!MESSAGE 2023-04-20 10:12:48,828 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-04-20 10:12:49.348
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:12:52.488
+!MESSAGE 2023-04-20 10:12:52,488 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-04-20 10:14:10.293
+!MESSAGE 2023-04-20 10:14:10,293 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:14.364
+!MESSAGE 2023-04-20 10:14:14,364 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:14.365
+!MESSAGE 2023-04-20 10:14:14,365 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/main/java overlaps with sources folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:14.371
+!MESSAGE 2023-04-20 10:14:14,371 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:14.372
+!MESSAGE 2023-04-20 10:14:14,371 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:15.400
+!MESSAGE 2023-04-20 10:14:15,400 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:15.521
+!MESSAGE 2023-04-20 10:14:15,521 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:15.522
+!MESSAGE 2023-04-20 10:14:15,521 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ED_FI_INGESTION_ENGINE_BEANS/src/main/java overlaps with sources folder /ED_FI_INGESTION_ENGINE_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:15.526
+!MESSAGE 2023-04-20 10:14:15,525 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:15.526
+!MESSAGE 2023-04-20 10:14:15,526 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:16.897
+!MESSAGE 2023-04-20 10:14:16,897 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:17.189
+!MESSAGE 2023-04-20 10:14:17,188 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE/poms/code/routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:17.190
+!MESSAGE 2023-04-20 10:14:17,190 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:21.022
+!MESSAGE 2023-04-20 10:14:21,022 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:21.085
+!MESSAGE 2023-04-20 10:14:21,085 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE/poms/code/beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:21.086
+!MESSAGE 2023-04-20 10:14:21,086 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:24.440
+!MESSAGE 2023-04-20 10:14:24,440 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on ed-fi-ingestion-engine
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:14:26.012
+!MESSAGE 2023-04-20 10:14:26,012 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:14:36.115
+!MESSAGE 2023-04-20 10:14:36,114 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:14:36.232
+!MESSAGE 2023-04-20 10:14:36,232 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:14:36.282
+!MESSAGE 2023-04-20 10:14:36,281 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-04-20 10:14:36.304
+!MESSAGE 2023-04-20 10:14:36,303 ERROR org.talend.commons.exception.CommonExceptionHandler  - /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (Permission denied)
+
+!STACK 0
+java.io.FileNotFoundException: /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at org.talend.designer.maven.utils.PomUtil.savePom(PomUtil.java:163)
+	at org.talend.designer.maven.utils.PomUtil.removeAllDependenciesFromPom(PomUtil.java:1109)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.updatePomFileForJar(LocalLibraryManager.java:1056)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.resolveStatusLocally(LocalLibraryManager.java:1003)
+	at org.talend.librariesmanager.model.service.LocalLibraryManager.checkModuleStatus(LocalLibraryManager.java:1078)
+	at org.talend.core.model.general.ModuleNeeded.getStatus(ModuleNeeded.java:318)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getUnistalledModulesNeeded(ModulesNeededProvider.java:1013)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:57)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:61)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:15:58.809
+!MESSAGE 2023-04-20 10:15:58,808 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /home/joe/talend/code/ed-fi-ingestion-engine/ED_FI_INGESTION_ENGINE/poms/code/routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:15:58.809
+!MESSAGE 2023-04-20 10:15:58,809 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /home/joe/programs/talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:16:09.339
+!MESSAGE 2023-04-20 10:16:09,339 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:16:09.390
+!MESSAGE 2023-04-20 10:16:09,389 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_100_TO_STAGING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:16:09.390
+!MESSAGE 2023-04-20 10:16:09,390 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_100_TO_STAGING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:16:09.397
+!MESSAGE 2023-04-20 10:16:09,396 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_100_TO_STAGING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:16:09.397
+!MESSAGE 2023-04-20 10:16:09,397 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_100_TO_STAGING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:02.797
+!MESSAGE 2023-04-20 10:17:02,797 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:02.855
+!MESSAGE 2023-04-20 10:17:02,854 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_MASTER_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:02.856
+!MESSAGE 2023-04-20 10:17:02,855 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_MASTER_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:02.861
+!MESSAGE 2023-04-20 10:17:02,860 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_MASTER_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:02.862
+!MESSAGE 2023-04-20 10:17:02,861 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_MASTER_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:22.976
+!MESSAGE 2023-04-20 10:17:22,975 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:23.109
+!MESSAGE 2023-04-20 10:17:23,108 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_ROUTINES: org.example.ed_fi_ingestion_engine.code:routines:7.3.1 with classifier  to /ED_FI_INGESTION_ENGINE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:23.110
+!MESSAGE 2023-04-20 10:17:23,109 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_0.1: org.example.ed_fi_ingestion_engine.job:Load_DSS_Landing_Data:0.1.0 with classifier  to /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:23.243
+!MESSAGE 2023-04-20 10:17:23,242 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:23.243
+!MESSAGE 2023-04-20 10:17:23,243 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:23.248
+!MESSAGE 2023-04-20 10:17:23,248 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-04-20 10:17:23.249
+!MESSAGE 2023-04-20 10:17:23,248 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ED_FI_INGESTION_ENGINE_LOAD_DSS_LANDING_DATA_0.1/src/test/resources
+

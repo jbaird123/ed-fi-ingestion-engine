@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_jEU84fZNEeSj18T95bdWUg" label="ed-fi-ingestion-engine2" description="" language="java" technicalLabel="ED_FI_INGESTION_ENGINE2" local="true" author="_jEU84vZNEeSj18T95bdWUg" productVersion="Talend Open Studio for ESB-7.3.1.20200219_1130" itemsRelationVersion="1.3">
+    <componentsSettings xmi:id="_NcoooAUoEeWgIrKoM1F0qw" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_NcoooQUoEeWgIrKoM1F0qw" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_NcooogUoEeWgIrKoM1F0qw" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_NcooowUoEeWgIrKoM1F0qw" name="DI|tArrayIn" family="Technical"/>
+    <migrationTask xmi:id="_sb86EN-EEe2QoqdQR5wodw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_jEU84vZNEeSj18T95bdWUg" login="test@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

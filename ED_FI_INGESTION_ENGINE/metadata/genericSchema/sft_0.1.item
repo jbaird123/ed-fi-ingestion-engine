@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LhM5MAi2EeWGmb2i1Ow6xA" name="repository.metadataGenericSchema" dataPackage="_LhM5MQi2EeWGmb2i1Ow6xA"/>
+  <TalendMetadata:GenericPackage xmi:id="_LhM5MQi2EeWGmb2i1Ow6xA" name="repository.metadataGenericSchema" dataManager="_LhM5MAi2EeWGmb2i1Ow6xA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LhM5Mgi2EeWGmb2i1Ow6xA" id="_KcpE4Ai2EeWGmb2i1Ow6xA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgQAi2EeWGmb2i1Ow6xA" name="EXTRT_DATE" label="EXTRT_DATE" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_LhNgQQi2EeWGmb2i1Ow6xA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgQgi2EeWGmb2i1Ow6xA" name="PRI" label="PRI" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_LhNgQwi2EeWGmb2i1Ow6xA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgRAi2EeWGmb2i1Ow6xA" name="COST_CNTR" label="COST_CNTR" length="90" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LhNgRQi2EeWGmb2i1Ow6xA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgRgi2EeWGmb2i1Ow6xA" name="FNCTL_AREA" label="FNCTL_AREA" length="90" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LhNgRwi2EeWGmb2i1Ow6xA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgSAi2EeWGmb2i1Ow6xA" name="FTE" label="FTE" length="6" precision="5" sourceType="DECIMAL" talendType="id_Float">
+        <initialValue xmi:id="_LhNgSQi2EeWGmb2i1Ow6xA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgSgi2EeWGmb2i1Ow6xA" name="FILE_NAME" label="FILE_NAME" length="45" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_LhNgSwi2EeWGmb2i1Ow6xA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LhNgTAi2EeWGmb2i1Ow6xA" name="LOAD_DATE" label="LOAD_DATE" length="19" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_LhNgTQi2EeWGmb2i1Ow6xA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

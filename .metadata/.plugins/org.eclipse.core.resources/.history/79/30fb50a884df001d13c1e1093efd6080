@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_C-uPg-2TEeScoLQ1tsZ2WA" id="_C-atgO2TEeScoLQ1tsZ2WA" label="DSS_Landing_300_File" creationDate="2015-04-28T06:40:54.361-0400" modificationDate="2015-04-28T06:39:19.979-0400" version="0.1" statusCode="" item="_C-uPhe2TEeScoLQ1tsZ2WA" displayName="DSS_Landing_300_File">
+    <author href="../../talend.project#_jEU84vZNEeSj18T95bdWUg"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-bA8APZfEeSl0L9X-Fv4ag" path=""/>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_C-uPhe2TEeScoLQ1tsZ2WA" property="_C-uPg-2TEeScoLQ1tsZ2WA" state="_-bA8APZfEeSl0L9X-Fv4ag">
+    <connection href="DSS_Landing_300_File_0.1.item#_C-tocO2TEeScoLQ1tsZ2WA"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

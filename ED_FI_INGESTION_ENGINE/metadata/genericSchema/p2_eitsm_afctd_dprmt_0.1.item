@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Q0yK8gX-EeWs0YBIQGP26g" dataPackage="_Q0yK8wX-EeWs0YBIQGP26g"/>
+  <TalendMetadata:GenericPackage xmi:id="_Q0yK8wX-EeWs0YBIQGP26g" dataManager="_Q0yK8gX-EeWs0YBIQGP26g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Q0yK9AX-EeWs0YBIQGP26g" id="_Q0yK8AX-EeWs0YBIQGP26g" label="p1_eitsm_afctd_dprmt">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Q0yK9wX-EeWs0YBIQGP26g" name="P1_GID" label="P1_GID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_Q0yK-AX-EeWs0YBIQGP26g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CGjMIAbTEeWAwvQzrq0h7Q" name="P1_AFCTD_DPRMT_GID" label="P1_AFCTD_DPRMT_GID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_CGjMIQbTEeWAwvQzrq0h7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Q0yK-QX-EeWs0YBIQGP26g" name="AFCTD_DPRMT" label="AFCTD_DPRMT" length="25" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="25">
+        <initialValue xmi:id="_Q0yK-gX-EeWs0YBIQGP26g"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

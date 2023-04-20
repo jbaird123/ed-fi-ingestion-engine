@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_dnel4O2KEeScoLQ1tsZ2WA" id="_dmz3gO2KEeScoLQ1tsZ2WA" label="Load_DSS_Landing_Data" creationDate="2015-04-28T05:39:27.676-0400" modificationDate="2015-11-12T17:40:09.721-0500" version="0.1" statusCode="" item="_dnfM8e2KEeScoLQ1tsZ2WA" displayName="Load_DSS_Landing_Data">
+    <author href="../../talend.project#_jEU84vZNEeSj18T95bdWUg"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_UrEV8FoyEeWL2pDcu4F9hQ" path="Load_DSS_Landing_Data"/>
+  <TalendProperties:ProcessItem xmi:id="_dnfM8e2KEeScoLQ1tsZ2WA" property="_dnel4O2KEeScoLQ1tsZ2WA" state="_UrEV8FoyEeWL2pDcu4F9hQ">
+    <process href="Load_DSS_Landing_Data_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

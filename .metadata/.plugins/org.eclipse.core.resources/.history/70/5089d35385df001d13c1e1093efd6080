@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_YpIBwQUsEd-xxMPzjK47rQ" id="_YpIBwAUsEd-xxMPzjK47rQ" label="CoreLogs" version="0.1" statusCode="" item="_YpIBwwUsEd-xxMPzjK47rQ" maxInformationLevel="WARN" displayName="CoreLogs">
+    <author href="../../../talend.project#_jEU84vZNEeSj18T95bdWUg"/>
+    <informations xmi:id="_Wb5MMPaOEeSln49vYeyVYg" level="WARN" text="The method setLogFileIncludeFlag(boolean) from the type CoreLogs is never used locally"/>
+    <additionalProperties xmi:id="_qMyT0N-EEe2QoqdQR5wodw" key="import_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_qMyT0d-EEe2QoqdQR5wodw" key="import_product_version" value="5.6.1.20141207_1530"/>
+    <additionalProperties xmi:id="_qMyT0t-EEe2QoqdQR5wodw" key="import_date" value="2023-04-20T10:07:17.440-0400"/>
+    <additionalProperties xmi:id="_qMyT09-EEe2QoqdQR5wodw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_qMyT1N-EEe2QoqdQR5wodw" key="created_product_version" value="5.6.1.20141207_1530"/>
+    <additionalProperties xmi:id="_qMyT1d-EEe2QoqdQR5wodw" key="created_date" value="2010-01-19T13:56:43.484-0500"/>
+    <additionalProperties xmi:id="_qMyT1t-EEe2QoqdQR5wodw" key="modified_product_fullname" value="Talend Open Studio for ESB"/>
+    <additionalProperties xmi:id="_qMyT19-EEe2QoqdQR5wodw" key="modified_product_version" value="7.3.1.20200219_1130"/>
+    <additionalProperties xmi:id="_qMyT2N-EEe2QoqdQR5wodw" key="modified_date" value="2023-04-20T10:12:01.987-0400"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-C5-AfZfEeSl0L9X-Fv4ag" path="Logging" locked="true" lockDate="2023-04-20T10:12:01.987-0400">
+    <locker href="../../../talend.project#_scyAgN-EEe2QoqdQR5wodw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:RoutineItem xmi:id="_YpIBwwUsEd-xxMPzjK47rQ" property="_YpIBwQUsEd-xxMPzjK47rQ" state="_-C5-AfZfEeSl0L9X-Fv4ag">
+    <content href="CoreLogs_0.1.item#/"/>
+  </TalendProperties:RoutineItem>
+</xmi:XMI>

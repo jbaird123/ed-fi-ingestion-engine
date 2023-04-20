@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DSS_302">
+  <context confirmationNeeded="false" name="DSS_100">
+    <contextParameter comment="" name="DB_DSS_Landing_Database" prompt="DB_DSS_Landing_Database?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Server" prompt="DB_DSS_Landing_Server?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_DSS_Landing_AdditionalParams" prompt="DB_DSS_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Port" prompt="DB_DSS_Landing_Port?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="3306"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Password" prompt="DB_DSS_Landing_Password?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_Password" value="ZvGKxlJHVmRlCiaM2Jk8iA=="/>
+    <contextParameter comment="" name="DB_DSS_Landing_Login" prompt="DB_DSS_Landing_Login?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="folderNameInbound" prompt="folderNameInbound?" promptNeeded="false" type="id_String" value="01_inbound"/>
+    <contextParameter comment="" name="folderNameProcessing" prompt="folderNameProcessing?" promptNeeded="false" type="id_String" value="02_processing"/>
+    <contextParameter comment="" name="folderNameExtracted" prompt="folderNameExtracted?" promptNeeded="false" type="id_String" value="03_extracted"/>
+    <contextParameter comment="" name="fileMask" prompt="fileMask?" promptNeeded="false" type="id_String" value="100_*.xlsx"/>
+    <contextParameter comment="" name="rootDirectory" prompt="rootDirectory?" promptNeeded="false" type="id_String" value="C:/temp/dss_landing_100"/>
+    <contextParameter comment="" name="fileDateStringFormat" prompt="fileDateStringFormat?" promptNeeded="false" type="id_String" value="yyyy-MM-dd"/>
+    <contextParameter comment="" name="folderLogFile" prompt="folderLogFile?" promptNeeded="false" type="id_String" value="logs"/>
+    <contextParameter comment="" name="logFileName" prompt="logFileName?" promptNeeded="false" type="id_String" value="log.log"/>
+    <contextParameter comment="" name="errorLogFileName" prompt="errorLogFileName?" promptNeeded="false" type="id_String" value="error.log"/>
+    <contextParameter comment="" name="badFileExtension" prompt="badFileExtension?" promptNeeded="false" type="id_String" value="bad"/>
+    <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fileLoadingJobName" prompt="fileLoadingJobName?" promptNeeded="false" type="id_String" value="Load_DSS_100"/>
+  </context>
+  <context confirmationNeeded="false" name="DSS_200">
+    <contextParameter comment="" name="DB_DSS_Landing_Database" prompt="DB_DSS_Landing_Database?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Server" prompt="DB_DSS_Landing_Server?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_DSS_Landing_AdditionalParams" prompt="DB_DSS_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Port" prompt="DB_DSS_Landing_Port?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="3306"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Password" prompt="DB_DSS_Landing_Password?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_Password" value="ZvGKxlJHVmRlCiaM2Jk8iA=="/>
+    <contextParameter comment="" name="DB_DSS_Landing_Login" prompt="DB_DSS_Landing_Login?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="folderNameInbound" prompt="folderNameInbound?" promptNeeded="false" type="id_String" value="01_inbound"/>
+    <contextParameter comment="" name="folderNameProcessing" prompt="folderNameProcessing?" promptNeeded="false" type="id_String" value="02_processing"/>
+    <contextParameter comment="" name="folderNameExtracted" prompt="folderNameExtracted?" promptNeeded="false" type="id_String" value="03_extracted"/>
+    <contextParameter comment="" name="fileMask" prompt="fileMask?" promptNeeded="false" type="id_String" value="200_*.xls"/>
+    <contextParameter comment="" name="rootDirectory" prompt="rootDirectory?" promptNeeded="false" type="id_String" value="C:/temp/dss_landing_200"/>
+    <contextParameter comment="" name="fileDateStringFormat" prompt="fileDateStringFormat?" promptNeeded="false" type="id_String" value="yyyy-MM-dd"/>
+    <contextParameter comment="" name="folderLogFile" prompt="folderLogFile?" promptNeeded="false" type="id_String" value="logs"/>
+    <contextParameter comment="" name="logFileName" prompt="logFileName?" promptNeeded="false" type="id_String" value="log.log"/>
+    <contextParameter comment="" name="errorLogFileName" prompt="errorLogFileName?" promptNeeded="false" type="id_String" value="error.log"/>
+    <contextParameter comment="" name="badFileExtension" prompt="badFileExtension?" promptNeeded="false" type="id_String" value="bad"/>
+    <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fileLoadingJobName" prompt="fileLoadingJobName?" promptNeeded="false" type="id_String" value="Load_DSS_200"/>
+  </context>
+  <context confirmationNeeded="false" name="DSS_300">
+    <contextParameter comment="" name="DB_DSS_Landing_Database" prompt="DB_DSS_Landing_Database?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Server" prompt="DB_DSS_Landing_Server?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_DSS_Landing_AdditionalParams" prompt="DB_DSS_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Port" prompt="DB_DSS_Landing_Port?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="3306"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Password" prompt="DB_DSS_Landing_Password?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_Password" value="ZvGKxlJHVmRlCiaM2Jk8iA=="/>
+    <contextParameter comment="" name="DB_DSS_Landing_Login" prompt="DB_DSS_Landing_Login?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="folderNameInbound" prompt="folderNameInbound?" promptNeeded="false" type="id_String" value="01_inbound"/>
+    <contextParameter comment="" name="folderNameProcessing" prompt="folderNameProcessing?" promptNeeded="false" type="id_String" value="02_processing"/>
+    <contextParameter comment="" name="folderNameExtracted" prompt="folderNameExtracted?" promptNeeded="false" type="id_String" value="03_extracted"/>
+    <contextParameter comment="" name="fileMask" prompt="fileMask?" promptNeeded="false" type="id_String" value="300_*.xlsx"/>
+    <contextParameter comment="" name="rootDirectory" prompt="rootDirectory?" promptNeeded="false" type="id_String" value="C:/temp/dss_landing_300"/>
+    <contextParameter comment="" name="fileDateStringFormat" prompt="fileDateStringFormat?" promptNeeded="false" type="id_String" value="yyyy-MM-dd"/>
+    <contextParameter comment="" name="folderLogFile" prompt="folderLogFile?" promptNeeded="false" type="id_String" value="logs"/>
+    <contextParameter comment="" name="logFileName" prompt="logFileName?" promptNeeded="false" type="id_String" value="log.log"/>
+    <contextParameter comment="" name="errorLogFileName" prompt="errorLogFileName?" promptNeeded="false" type="id_String" value="error.log"/>
+    <contextParameter comment="" name="badFileExtension" prompt="badFileExtension?" promptNeeded="false" type="id_String" value="bad"/>
+    <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fileLoadingJobName" prompt="fileLoadingJobName?" promptNeeded="false" type="id_String" value="Load_DSS_300"/>
+  </context>
+  <context confirmationNeeded="false" name="DSS_302">
+    <contextParameter comment="" name="DB_DSS_Landing_Database" prompt="DB_DSS_Landing_Database?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Server" prompt="DB_DSS_Landing_Server?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_DSS_Landing_AdditionalParams" prompt="DB_DSS_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Port" prompt="DB_DSS_Landing_Port?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="3306"/>
+    <contextParameter comment="" name="DB_DSS_Landing_Password" prompt="DB_DSS_Landing_Password?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_Password" value="ZvGKxlJHVmRlCiaM2Jk8iA=="/>
+    <contextParameter comment="" name="DB_DSS_Landing_Login" prompt="DB_DSS_Landing_Login?" promptNeeded="false" repositoryContextId="_1vRsUO2KEeScoLQ1tsZ2WA" type="id_String" value="dsslanding"/>
+    <contextParameter comment="" name="folderNameInbound" prompt="folderNameInbound?" promptNeeded="false" type="id_String" value="01_inbound"/>
+    <contextParameter comment="" name="folderNameProcessing" prompt="folderNameProcessing?" promptNeeded="false" type="id_String" value="02_processing"/>
+    <contextParameter comment="" name="folderNameExtracted" prompt="folderNameExtracted?" promptNeeded="false" type="id_String" value="03_extracted"/>
+    <contextParameter comment="" name="fileMask" prompt="fileMask?" promptNeeded="false" type="id_String" value="302_*.csv"/>
+    <contextParameter comment="" name="rootDirectory" prompt="rootDirectory?" promptNeeded="false" type="id_String" value="C:/temp/dss_landing_302"/>
+    <contextParameter comment="" name="fileDateStringFormat" prompt="fileDateStringFormat?" promptNeeded="false" type="id_String" value="yyyy-MM-dd"/>
+    <contextParameter comment="" name="folderLogFile" prompt="folderLogFile?" promptNeeded="false" type="id_String" value="logs"/>
+    <contextParameter comment="" name="logFileName" prompt="logFileName?" promptNeeded="false" type="id_String" value="log.log"/>
+    <contextParameter comment="" name="errorLogFileName" prompt="errorLogFileName?" promptNeeded="false" type="id_String" value="error.log"/>
+    <contextParameter comment="" name="badFileExtension" prompt="badFileExtension?" promptNeeded="false" type="id_String" value="bad"/>
+    <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fileLoadingJobName" prompt="fileLoadingJobName?" promptNeeded="false" type="id_String" value="Load_DSS_302"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx2048M "/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="32"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="224"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/TOS_5.5.6/TOS_DI-Win32-20141207_1530-V5.6.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value=""/>
+    <routinesParameter id="_424d0O2HEeScoLQ1tsZ2WA" name="DataOperation"/>
+    <routinesParameter id="_43sWIO2HEeScoLQ1tsZ2WA" name="Mathematical"/>
+    <routinesParameter id="_437msO2HEeScoLQ1tsZ2WA" name="Numeric"/>
+    <routinesParameter id="_44JCEO2HEeScoLQ1tsZ2WA" name="Relational"/>
+    <routinesParameter id="_44Q94O2HEeScoLQ1tsZ2WA" name="StringHandling"/>
+    <routinesParameter id="_44dLIO2HEeScoLQ1tsZ2WA" name="TalendDataGenerator"/>
+    <routinesParameter id="_44iqsO2HEeScoLQ1tsZ2WA" name="TalendDate"/>
+    <routinesParameter id="_44uQ4O2HEeScoLQ1tsZ2WA" name="TalendString"/>
+    <routinesParameter id="_YpIBwAUsEd-xxMPzjK47rQ" name="CoreLogs"/>
+  </parameters>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="((String)globalMap.get(&quot;directoryInbound&quot;))"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="NO"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="context.fileMask"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;*.txt&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="ListFiles"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.fileName = ((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SetFileName"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;directoryInbound&quot;"/>
+      <elementValue elementRef="VALUE" value="context.rootDirectory + &quot;/&quot; + context.folderNameInbound"/>
+      <elementValue elementRef="KEY" value="&quot;directoryProcessing&quot;"/>
+      <elementValue elementRef="VALUE" value="context.rootDirectory + &quot;/&quot; + context.folderNameProcessing"/>
+      <elementValue elementRef="KEY" value="&quot;directoryExtracted&quot;"/>
+      <elementValue elementRef="VALUE" value="context.rootDirectory + &quot;/&quot; + context.folderNameExtracted"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="CoreLogs.infoMsg(&quot;Searching &quot; + ((String)globalMap.get(&quot;directoryInbound&quot;)));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Logging"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="CoreLogs.infoMsg(&quot;There are no files to load.&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Logging"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="0" posY="-160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Initialize Logging&#xA;CoreLogs.initializeLogging(context.rootDirectory + &quot;/&quot; + context.folderLogFile, context.logFileName, context.errorLogFileName);&#xA;&#xA;CoreLogs.infoMsg(&quot;Beginning Job: &quot; + projectName + &quot; / &quot; + jobName);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Logging"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="CoreLogs.errorMsg(input_row.message);&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="CoreLogs.infoMsg(projectName + &quot;/ &quot; + jobName + &quot; - Job Successfully Completed.&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Logging"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\TOS_5.5.6\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Load_DSS_Landing_Data"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_dmz3gO2KEeScoLQ1tsZ2WA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="LoadSingleFile"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tJava_3">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="NoFilesToLoad" lineStyle="6" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tJava_4">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="(((Integer)globalMap.get(&quot;tFileList_1_NB_FILE&quot;))==0)"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="NoFilesToLoad"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tFileList_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_5" offsetLabelX="0" offsetLabelY="0" source="tJava_5" target="tSetGlobalVar_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="moment"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="root_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="father_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="project"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="job"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="context"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="priority"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="origin"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Iterate across multiple files and call loading job for each file."/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

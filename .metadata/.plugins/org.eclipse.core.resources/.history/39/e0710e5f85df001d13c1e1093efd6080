@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_1v-P4O2KEeScoLQ1tsZ2WA" id="_1vRsUO2KEeScoLQ1tsZ2WA" label="DB_DSS_Landing" version="0.1" statusCode="" item="_1v-P4u2KEeScoLQ1tsZ2WA" displayName="DB_DSS_Landing">
+    <author href="../talend.project#_jEU84vZNEeSj18T95bdWUg"/>
+    <additionalProperties xmi:id="_qM2lQN-EEe2QoqdQR5wodw" key="import_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_qM2lQd-EEe2QoqdQR5wodw" key="import_product_version" value="5.6.1.20141207_1530"/>
+    <additionalProperties xmi:id="_qM2lQt-EEe2QoqdQR5wodw" key="import_date" value="2023-04-20T10:07:17.440-0400"/>
+    <additionalProperties xmi:id="_qM2lQ9-EEe2QoqdQR5wodw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_qM2lRN-EEe2QoqdQR5wodw" key="created_product_version" value="5.6.1.20141207_1530"/>
+    <additionalProperties xmi:id="_qM2lRd-EEe2QoqdQR5wodw" key="created_date" value="2015-04-28T05:42:09.629-0400"/>
+    <additionalProperties xmi:id="_qM2lRt-EEe2QoqdQR5wodw" key="modified_product_fullname" value="Talend Open Studio for ESB"/>
+    <additionalProperties xmi:id="_qM2lR9-EEe2QoqdQR5wodw" key="modified_product_version" value="7.3.1.20200219_1130"/>
+    <additionalProperties xmi:id="_qM3MUN-EEe2QoqdQR5wodw" key="modified_date" value="2023-04-20T10:12:07.356-0400"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-aIyQPZfEeSl0L9X-Fv4ag" path="" locked="true" lockDate="2023-04-20T10:12:07.356-0400">
+    <locker href="../talend.project#_scyAgN-EEe2QoqdQR5wodw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ContextItem xmi:id="_1v-P4u2KEeScoLQ1tsZ2WA" property="_1v-P4O2KEeScoLQ1tsZ2WA" state="_-aIyQPZfEeSl0L9X-Fv4ag" defaultContext="Default">
+    <context href="DB_DSS_Landing_0.1.item#_qM4acN-EEe2QoqdQR5wodw"/>
+  </TalendProperties:ContextItem>
+</xmi:XMI>

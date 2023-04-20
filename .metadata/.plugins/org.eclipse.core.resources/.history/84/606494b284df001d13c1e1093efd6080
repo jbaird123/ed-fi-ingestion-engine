@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qM4acN-EEe2QoqdQR5wodw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_qM4acd-EEe2QoqdQR5wodw" comment="" name="DB_DSS_Landing_Database" prompt="DB_DSS_Landing_Database?" promptNeeded="false" type="id_String" value="dsslanding"/>
+  <contextParameter xmi:id="_qM4act-EEe2QoqdQR5wodw" comment="" name="DB_DSS_Landing_Server" prompt="DB_DSS_Landing_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_qM4ac9-EEe2QoqdQR5wodw" comment="" name="DB_DSS_Landing_AdditionalParams" prompt="DB_DSS_Landing_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_qM4adN-EEe2QoqdQR5wodw" comment="" name="DB_DSS_Landing_Port" prompt="DB_DSS_Landing_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_qM4add-EEe2QoqdQR5wodw" comment="" name="DB_DSS_Landing_Password" prompt="DB_DSS_Landing_Password?" promptNeeded="false" type="id_Password" value="ZvGKxlJHVmRlCiaM2Jk8iA=="/>
+  <contextParameter xmi:id="_qM4adt-EEe2QoqdQR5wodw" comment="" name="DB_DSS_Landing_Login" prompt="DB_DSS_Landing_Login?" promptNeeded="false" type="id_String" value="dsslanding"/>
+</talendfile:ContextType>

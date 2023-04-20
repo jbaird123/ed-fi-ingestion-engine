@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="DB_DSS_Staging_Login" prompt="DB_DSS_Staging_Login?" promptNeeded="false" type="id_String" value="dsslanding"/>
+  <contextParameter comment="" name="DB_DSS_Staging_AdditionalParams" prompt="DB_DSS_Staging_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter comment="" name="DB_DSS_Staging_Server" prompt="DB_DSS_Staging_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter comment="" name="DB_DSS_Staging_Database" prompt="DB_DSS_Staging_Database?" promptNeeded="false" type="id_String" value="dssstaging"/>
+  <contextParameter comment="" name="DB_DSS_Staging_Password" prompt="DB_DSS_Staging_Password?" promptNeeded="false" type="id_Password" value="ZvGKxlJHVmRlCiaM2Jk8iA=="/>
+  <contextParameter comment="" name="DB_DSS_Staging_Port" prompt="DB_DSS_Staging_Port?" promptNeeded="false" type="id_String" value="3306"/>
+</talendfile:ContextType>
